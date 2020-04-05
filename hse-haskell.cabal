@@ -1,28 +1,22 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.2.
---
--- see: https://github.com/sol/hpack
---
--- hash: d6e265d9cf239f1686259927390d4f8923e4ee4963f56109729f2fd0fd4e2a4c
-
 name:           hse-haskell
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/hse-haskell#readme>
-homepage:       https://github.com/githubuser/hse-haskell#readme
-bug-reports:    https://github.com/githubuser/hse-haskell/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2020 Author name here
+description:    Please see the README on GitHub at <https://github.com/tavplubix/hse-haskell#readme>
+homepage:       https://github.com/tavplubix/hse-haskell#readme
+bug-reports:    https://github.com/tavplubix/hse-haskell/issues
+author:         Alexander Tokmakov
+maintainer:     tavplubix@gmail.com
+copyright:      2020 Alexander Tokmakov
 build-type:     Simple
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/hse-haskell
+  location: https://github.com/tavplubix/hse-haskell
 
 library
   exposed-modules:
-      Task2, Task3, Task4, Hw2Task1
+      Task2, Task3, Task4, Hw2Task1, Hw2Task2, Hw2Task4, Hw2Task5
   other-modules:
       Paths_hse_haskell
   hs-source-dirs:
