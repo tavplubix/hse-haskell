@@ -22,7 +22,7 @@ source-repository head
 
 library
   exposed-modules:
-      Task2, Task3, Task4
+      Task2, Task3, Task4, Hw2Task1
   other-modules:
       Paths_hse_haskell
   hs-source-dirs:
