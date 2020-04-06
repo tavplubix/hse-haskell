@@ -16,13 +16,14 @@ source-repository head
 
 library
   exposed-modules:
-      Task2, Task3, Task4, Hw2Task1, Hw2Task2, Hw2Task4, Hw2Task5
+      Task2, Task3, Task4, Hw2Task1, Hw2Task2, Hw2Task4, Hw2Task5, Hw3Task1, Hw3Task2
   other-modules:
       Paths_hse_haskell
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
+    , parallel
   default-language: Haskell2010
 
 executable hse-haskell-exe
@@ -35,5 +36,6 @@ executable hse-haskell-exe
   build-depends:
       base >=4.7 && <5
     , hse-haskell
+    , parallel
   default-language: Haskell2010
 
